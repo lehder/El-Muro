@@ -4,39 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muro de Opinion</title>
-    <!--<link rel="stylesheet" href="css/media.css" media="screen and (max-width:768px)"/>-->
+    <title>BlogNoticias</title>
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css" media="screen and (max-width:768px)" />
+    <link rel="stylesheet" href="">
     <link rel="stylesheet" href="css/virus.css">
-    <!--<style>
-        @media screen and (max-width: 768px) {
-            body {
-                border: 10px solid blue;
-            }
-        }
-    </style>-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
 <body>
+    <script src="main.js"></script>
     <header class="header">
         <section id="nombre" class="nombre">
             <div class="name">
                 <h1>Muro de Opinion</h1>
                 <h4>Por que la informacion, es su derecho.</h4>
             </div>
-        </section>
+            <!--</section>-->
 
-        <section id="contact" class="buscar">
+            <!--<section id="contact" class="buscar">-->
             <div class="buscar-buscando">
-                <form action="/suscripcion/" class="form-email">
+                <form action="/suscripcion" class="form-email">
                     <h3>De interes</h3>
                     <input type="text" autocomplete="off" autocapitalize="off" placeholder="Buscar">
                 </form>
             </div>
         </section>
+    </header>
 
-        <div class="menu">
+
+
+    <section class="container-menu">
+        <div class="container">
             <nav class="menu">
                 <ul>
                     <ol>
@@ -55,7 +56,12 @@
                 </ul>
             </nav>
         </div>
-    </header>
+
+
+
+
+    </section>
+
 
     <div class="grid">
         <div class="seccion1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, consequatur.</div>
@@ -174,7 +180,6 @@
         </article>
     </section>
 
-    <!--<section class="prologue">-->
     <div class="grid-prologo">
         <div class="section1">
             Somos dos colombianos con media vida vivida fuera de las fronteras de nuestro hermoso país lleno de esa riqueza cultural y material incalculable, pero que como muchos colombianos más, dentro y fuera del país, sienten hoy mas que nunca que se debe despertar
@@ -185,39 +190,31 @@
             para esa minoritaria parte que causa un daño enorme y mortal. En fin, creemos que es hora de unirnos a tantas voces anónimas y publicas que cada día luchan por un país mejor, gracias a las nuevas tecnologías muchos podemos pasar del anonimato
             a amplificar nuestras opiniones desde un pensamiento critico y poner nuestro grano de arena para que, basados en hechos ciertos y contrastados, hacer publica esa información y nuestras opiniones. <br></br> <br>Atentamente,</br>
             Jorge Andrés Cuero Ochoa y Lehder Harold Hernandez.
+
         </div>
         <div class="section2">
             <figure class="imagen">
                 <img class="image" src="bilder/unnamed.jpg" width="181" height="250" alt="">
+                <p>Jorge Andres Cuero</p>
             </figure>
         </div>
-
         <div class="section3">
             <figure class="imagen2">
-                <img class="image" src="bilder/fotolehder.jpg" width="181" height="250" alt="">
+                <img class="image" src="bilder/fotolehder1.jpg" width="181" height="250" alt="">
+                <p>Lehder Harold Hernandez</p>
             </figure>
         </div>
     </div>
-    <!--</section>-->
 
-
-    <div class="grid-social">
-        <div>
-            <a href="https://twitter.com/@lehderjhoyy38" class="grid-social-link twitter"></a>
-        </div>
-        <div>
-            <a href="https://facebook.com/Lehder Harold Hernandez Gonzalez" class="grid-social-link facebook"></a>
-        </div>
-        <div>
-            <a href="https://instagram.com/lehder_desarrolladorweb" class="grid-social-link instagram"></a>
-        </div>
-        <div>
-            <a href="https://gmail.com/Lehder Harold Hernandez Gonzalez" class="grid-social-link gmail"></a>
-        </div>
+    <div class="social-bar">
+        <a href="https://facebook.com/Lehder Harold Hernandez Gonzalez" class="icon icon-facebook" target="_blank"></a>
+        <a href="https://twitter.com/@lehderjhoyy38" class="icon icon-twitter" target="_blank"></a>
+        <a href="https://github.com/lehder" class="icon icon-github" target="_blank"></a>
+        <a href="https://instagram.com/lehder_desarrolladorweb" class="icon icon-instagrama" target="_blank"></a>
     </div>
 
     <footer class="footer">
-        <div class="piedepagina">
+        <div class="container">
             <div class="blog">
                 <p>Muro de Opinion</p>
             </div>
